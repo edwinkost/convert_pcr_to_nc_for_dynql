@@ -21,7 +21,7 @@ def main():
 
     target_path = "/scratch-shared/edwindql/dynqual_input_release/version_2022_09/dynqual_input"
 
-    without_compression = True
+    without_compression = False
 
     if without_compression:
         target_path = target_path + "_without_compression"

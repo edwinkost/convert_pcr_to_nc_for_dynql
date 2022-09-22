@@ -13,9 +13,13 @@ def main():
     #~ 
     #~ target_path = "/scratch/depfg/sutan101/test_ldd/output_2/"
 
-    source_path = "/quanta1/home/hydrowld/data/hydroworld/pcrglobwb2_input_release/version_2019_10_beta_1_extended/"
+    # ~ source_path = "/quanta1/home/hydrowld/data/hydroworld/pcrglobwb2_input_release/version_2019_10_beta_1_extended/"
     
-    target_path = "/scratch/depfg/sutan101/data/pcrglobwb2_input_release/version_2019_11_beta"
+    # ~ target_path = "/scratch/depfg/sutan101/data/pcrglobwb2_input_release/version_2019_11_beta"
+
+    source_path = "/home/edwindql/project_dir_dynql/edwindql/dynqual_input/source_from_edward/"
+
+    target_path = "/scratch-shared/edwindql/dynqual_input_release/version_2022_09/dynqual_input"
 
     without_compression = True
 
@@ -83,7 +87,7 @@ def main():
                 os.system(cmd_line)
             
                 # add/replace the 'comment' attribute to netcdf files
-                comment_line = 'This file is part of the input files for the PCR-GLOBWB model runs underlying the publication "PCR-GLOBWB 2: a 5 arcmin global hydrological and water resources model" (Sutanudjaja et al., 2018, https://doi.org/10.5194/gmd-11-2429-2018).'
+                comment_line = 'This file is part of the input files for the DYNQUAL model.'
                 cmd = "ncatted -O -h -a comment,global,o,c,'" + comment_line + "' " + target_file_name
                 print(cmd)
                 os.system(cmd)
@@ -115,7 +119,7 @@ def main():
                                                   time_input = None)
             
                 # add/replace the 'comment' attribute to netcdf files
-                comment_line = 'This file is part of the input files for the PCR-GLOBWB model runs underlying the publication "PCR-GLOBWB 2: a 5 arcmin global hydrological and water resources model" (Sutanudjaja et al., 2018, https://doi.org/10.5194/gmd-11-2429-2018).'
+                comment_line = 'This file is part of the input files for the DYNQUAL model.'
                 cmd = "ncatted -O -h -a comment,global,o,c,'" + comment_line + "' " + target_file_name
                 print(cmd)
                 os.system(cmd)

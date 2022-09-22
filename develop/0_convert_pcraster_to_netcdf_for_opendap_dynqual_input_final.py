@@ -46,6 +46,8 @@ def main():
             os.makedirs(target_directory)
             print(target_directory)
 
+        print(files)
+        
         for file_name in files:
             
             print("\n\n")

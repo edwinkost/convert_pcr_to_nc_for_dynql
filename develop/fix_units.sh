@@ -13,7 +13,7 @@ ncdump -h ${NCFILE}
 
 cd /scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/loadings
 NCFILE=TSS_2000.nc
-VARNAME"TSS"
+VARNAME="TSS_2000_map"
 ncatted -O -h -a units,${VARNAME},o,c,"mg/l" ${NCFILE}
 ncdump -h ${NCFILE}
 
@@ -21,22 +21,22 @@ ncdump -h ${NCFILE}
 cd /scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/routing
 
 NCFILE=bankfull_capacity.nc
-VARNAME"bankfull_capacity"
+VARNAME="bankfull_capacity_map"
 ncatted -O -h -a units,${VARNAME},o,c,"m2" ${NCFILE}
 ncdump -h ${NCFILE}
 
 NCFILE=bankfull_depth.nc
-VARNAME"bankfull_depth"
+VARNAME="bankfull_depth_map"
 ncatted -O -h -a units,${VARNAME},o,c,"m" ${NCFILE}
 ncdump -h ${NCFILE}
 
 NCFILE=channel_gradient.nc
-VARNAME"channel_gradient"
+VARNAME="channel_gradient_map"
 ncatted -O -h -a units,${VARNAME},o,c,"m/m" ${NCFILE}
 ncdump -h ${NCFILE}
 
 NCFILE=lddsound_05min.nc
-VARNAME"lddsound_05min"
+VARNAME="lddsound_05min_map"
 ncatted -O -h -a units,${VARNAME},o,c,"pcraster_ldd" ${NCFILE}
 ncdump -h ${NCFILE}
 

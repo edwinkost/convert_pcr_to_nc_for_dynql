@@ -49,19 +49,19 @@ ncdump -h ${NCFILE}
  #~ WWt_Tertiary WWt_Secondary WWt_Primary WWcut dom_WWbs dom_WWod man_WWdirect
 NCFILE=WastewaterPathways_1980_2015.nc
 VARNAME="WWt_Tertiary"
-ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncatted -O -h -a units,${VARNAME},o,c,"-" ${NCFILE}
 VARNAME="WWt_Secondary"
-ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncatted -O -h -a units,${VARNAME},o,c,"-" ${NCFILE}
 VARNAME="WWt_Primary"
-ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncatted -O -h -a units,${VARNAME},o,c,"-" ${NCFILE}
 VARNAME="WWcut"
-ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncatted -O -h -a units,${VARNAME},o,c,"-" ${NCFILE}
 VARNAME="dom_WWbs"
-ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncatted -O -h -a units,${VARNAME},o,c,"-" ${NCFILE}
 VARNAME="dom_WWod"
-ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncatted -O -h -a units,${VARNAME},o,c,"-" ${NCFILE}
 VARNAME="man_WWdirect"
-ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncatted -O -h -a units,${VARNAME},o,c,"-" ${NCFILE}
 ncdump -h ${NCFILE}
 
 

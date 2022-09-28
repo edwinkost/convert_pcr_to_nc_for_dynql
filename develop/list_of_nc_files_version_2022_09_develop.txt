@@ -1,0 +1,122 @@
+/scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop:
+total 19K
+drwxr-xr-x 7 edwindql edwindql 4.0K Sep 27 15:20 .
+drwxr-xr-x 4 edwindql edwindql 4.0K Sep 27 15:40 ..
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 extensiveMeteo
+drwxr-xr-x 2 edwindql edwindql  16K Sep 25 16:58 initialConditions
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 loadingInput
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 loadings
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 routing
+
+/scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/extensiveMeteo:
+total 11G
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 .
+drwxr-xr-x 7 edwindql edwindql 4.0K Sep 27 15:20 ..
+-rw-r--r-- 1 edwindql edwindql 380M Sep 25 16:58 cloudCover_cru_ts3.21.nc
+-rw-r--r-- 1 edwindql edwindql 9.8G Sep 25 16:58 rsds_W5E5v2.0_19790101-20191231_with_climatology_on_1978_wm-2.nc
+-rw-r--r-- 1 edwindql edwindql  28M Sep 25 16:58 tas_W5E5v2.0_19790101-20191231_annAvg_C.nc
+-rw-r--r-- 1 edwindql edwindql 378M Sep 25 16:58 vap_cru_ts3.21.nc
+
+/scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/initialConditions:
+total 2.3G
+drwxr-xr-x 2 edwindql edwindql  16K Sep 25 16:58 .
+drwxr-xr-x 7 edwindql edwindql 4.0K Sep 27 15:20 ..
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avgBaseflowLong_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avgDischargeLong_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avgDischargeShort_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avg_irrGrossDemand_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avgLakeReservoirInflowShort_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avgLakeReservoirOutflowLong_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avg_netLqWaterToSoil_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 avgTotalGroundwaterAbstractionIni_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 channelStorage_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 iceThickness_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interceptStor_forest_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interceptStor_grassland_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interceptStor_irrNonPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interceptStor_irrPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interflow_forest_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interflow_grassland_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interflow_irrNonPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 interflow_irrPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 m2tDischargeLong_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 readAvlChannelStorage_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 riverbedExchange_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedBOD_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedDomBOD_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedDomFC_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedDomTDS_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedextLivBOD_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedextLivFC_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedFC_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedintLivBOD_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedintLivFC_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedIrrTDS_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedManBOD_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedManFC_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedManTDS_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedTDS_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedUSRBOD_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedUSRFC_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 routedUSRTDS_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowCoverSWE_forest_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowCoverSWE_grassland_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowCoverSWE_irrNonPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowCoverSWE_irrPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowFreeWater_forest_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowFreeWater_grassland_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowFreeWater_irrNonPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 snowFreeWater_irrPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storGroundwater_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storGroundwaterFossil_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storLow_forest_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storLow_grassland_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storLow_irrNonPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storLow_irrPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storUpp_forest_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storUpp_grassland_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storUpp_irrNonPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 storUpp_irrPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 subDischarge_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 timestepsToAvgDischarge_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 topWaterLayer_forest_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 topWaterLayer_grassland_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 topWaterLayer_irrNonPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 topWaterLayer_irrPaddy_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 waterBodyStorage_2000-12-31.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 waterTemperature_2000-12-31.nc
+
+/scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/loadingInput:
+total 2.7G
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 .
+drwxr-xr-x 7 edwindql edwindql 4.0K Sep 27 15:20 ..
+-rw-r--r-- 1 edwindql edwindql 1.3M Sep 25 16:58 Dom_ExcLoad.nc
+-rw-r--r-- 1 edwindql edwindql 728K Sep 25 16:58 factorInd_Man.nc
+-rw-r--r-- 1 edwindql edwindql 832K Sep 25 16:58 Irr_EffConc.nc
+-rw-r--r-- 1 edwindql edwindql 7.5M Sep 25 16:58 Liv_ExcLoad.nc
+-rw-r--r-- 1 edwindql edwindql 2.1G Sep 25 16:58 Liv_Pop_1980_2019.nc
+-rw-r--r-- 1 edwindql edwindql 1.4M Sep 25 16:58 Man_EffConc.nc
+-rw-r--r-- 1 edwindql edwindql 211M Sep 25 16:58 Population_1980_2019.nc
+-rw-r--r-- 1 edwindql edwindql 8.5M Sep 25 16:58 PowRF_1980_2019.nc
+-rw-r--r-- 1 edwindql edwindql  43M Sep 25 16:58 urban_fraction_1970-2010.nc
+-rw-r--r-- 1 edwindql edwindql 1.2M Sep 25 16:58 USR_EffConc.nc
+-rw-r--r-- 1 edwindql edwindql 301M Sep 25 16:58 WastewaterPathways_1980_2015.nc
+
+/scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/loadings:
+total 8.7G
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 .
+drwxr-xr-x 7 edwindql edwindql 4.0K Sep 27 15:20 ..
+-rw-r--r-- 1 edwindql edwindql 5.8M Sep 25 16:58 Background_TDS_05min.nc
+-rw-r--r-- 1 edwindql edwindql 3.0G Sep 25 16:58 BODload_monthly_1980_2019.nc
+-rw-r--r-- 1 edwindql edwindql 3.0G Sep 25 16:58 FCload_monthly_1980_2019.nc
+-rw-r--r-- 1 edwindql edwindql 2.8G Sep 25 16:58 TDSload_monthly_1980_2019.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 TSS_2000.nc
+
+/scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/routing:
+total 109M
+drwxr-xr-x 2 edwindql edwindql 4.0K Sep 25 16:58 .
+drwxr-xr-x 7 edwindql edwindql 4.0K Sep 27 15:20 ..
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 bankfull_capacity.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 bankfull_depth.nc
+-rw-r--r-- 1 edwindql edwindql  36M Sep 25 16:58 channel_gradient.nc
+-rw-r--r-- 1 edwindql edwindql 1.7M Sep 25 16:58 lddsound_05min.nc

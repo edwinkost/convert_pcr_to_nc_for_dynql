@@ -1,0 +1,21 @@
+﻿variable,unit,long_name
+avg_irrGrosssDemand,m/day,metres per day
+avg_netLqWaterToSoil,m/day,metres per day
+routedTDS,g,grams
+routedDomTDS,g,grams
+routedManTDS,g,grams
+routedUSRTDS,g,grams
+routedIrrTDS,g,grams
+routedBOD,g,grams
+routedDomBOD,g,grams
+routedManBOD,g,grams
+routedUSRBOD,g,grams
+routedintLivBOD,g,grams
+routedextLivBOD,g,grams
+routedDomFC,cfu,colony forming units
+routedManFC,cfu,colony forming units
+routedUSRFC,cfu,colony forming units
+routedintLivFC,cfu,colony forming units
+routedextLivFC,cfu,colony forming units
+waterTemperature,K,kelvin
+iceThickness,m,metres

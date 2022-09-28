@@ -64,7 +64,7 @@ cdo setunit,"m day-1"   nc_without_units/avg_irrGrossDemand_*-12-31.nc          
 cdo setunit,"m3 s-1"    nc_without_units/avgLakeReservoirInflowShort_*-12-31.nc            avgLakeReservoirInflowShort_*-12-31.nc
 cdo setunit,"m3 s-1"    nc_without_units/avgLakeReservoirOutflowLong_*-12-31.nc            avgLakeReservoirOutflowLong_*-12-31.nc
 cdo setunit,"m day-1"   nc_without_units/avg_netLqWaterToSoil_*-12-31.nc                   avg_netLqWaterToSoil_*-12-31.nc
-cdo setunit,"m day-1"   nc_without_units/avgTotalGroundwaterAbstraction_*-12-31.nc         avgTotalGroundwaterAbstraction_*-12-31.nc
+cdo setunit,"m day-1"   nc_without_units/avgTotalGroundwaterAbstractionIni_*-12-31.nc      avgTotalGroundwaterAbstractionIni_*-12-31.nc
 cdo setunit,"m3"        nc_without_units/channelStorage_*-12-31.nc                         channelStorage_*-12-31.nc
 cdo setunit,"m"         nc_without_units/iceThickness_*-12-31.nc                           iceThickness_*-12-31.nc
 cdo setunit,"m"         nc_without_units/interceptStor_forest_*-12-31.nc                   interceptStor_forest_*-12-31.nc

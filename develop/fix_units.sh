@@ -5,13 +5,77 @@
 #~ ncatted -O -h -a units,${VARNAME},o,c,"m" ${NCFILE}
 #~ ncdump -h ${NCFILE}
 
+
+cd /scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/extensiveMeteo
+
+NCFILE=tas_W5E5v2.0_19790101-20191231_annAvg_C.nc
+VARNAME="tas"
+ncatted -O -h -a units,${VARNAME},o,c,"degree Celcius" ${NCFILE}
+ncdump -h ${NCFILE}
+
+
 cd /scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/loadingInput
+
+#~ In loadingInput/Dom_ExcLoad.nc ; variable Dom_Fixed_FCload should be cfu/cap/day. This looks like a mislabelled unit mistake from me during processing.
+NCFILE=Dom_ExcLoad.nc
+VARNAME="Dom_Fixed_FCload"
+ncatted -O -h -a units,${VARNAME},o,c,"cfu/cap/day" ${NCFILE}
+ncdump -h ${NCFILE}
+
+#~ In loadingInput/Liv_Pop; all variables should be in stock/GC (i.e. stock per gridcell). At the moment, only one variable has the correct unit.
+#~ $ cdo showvar Liv_Pop_1980_2019.nc
+ #~ BufalloPop ChickenPop CowPop DuckPop GoatPop PigPop SheepPop HorsePop
+NCFILE=Liv_Pop_1980_2019.nc
+VARNAME="BufalloPop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+VARNAME="ChickenPop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+VARNAME="CowPop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+VARNAME="DuckPop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+VARNAME="GoatPop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+VARNAME="PigPop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+VARNAME="SheepPop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+VARNAME="HorsePop"
+ncatted -O -h -a units,${VARNAME},o,c,"stock per grid-cell" ${NCFILE}
+ncdump -h ${NCFILE}
+
+#~ In loadingInput/WastewaterPathways_1980_2015.nc; all variables are dimensionless ratios (-). The volume flows stored in these files currently are relics of a previous processing step.
+#~ $ cdo showvar WastewaterPathways_1980_2015.nc
+ #~ WWt_Tertiary WWt_Secondary WWt_Primary WWcut dom_WWbs dom_WWod man_WWdirect
+NCFILE=Liv_Pop_1980_2019.nc
+VARNAME="WWt_Tertiary"
+ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+VARNAME="WWt_Secondary"
+ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+VARNAME="WWt_Primary"
+ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+VARNAME="WWcut"
+ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+VARNAME="dom_WWbs"
+ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+VARNAME="dom_WWod"
+ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+VARNAME="man_WWdirect"
+ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
+ncdump -h ${NCFILE}
+
+
+
+cd /scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/loadingInput
+
 NCFILE=PowRF_1980_2019.nc
 VARNAME="PowRF"
 ncatted -O -h -a units,${VARNAME},o,c,"m3/s" ${NCFILE}
 ncdump -h ${NCFILE}
 
+
 cd /scratch-shared/edwindql/dynqual_input_release/version_2022_09_develop/loadings
+
 NCFILE=TSS_2000.nc
 VARNAME="TSS_2000_map"
 ncatted -O -h -a units,${VARNAME},o,c,"mg/l" ${NCFILE}

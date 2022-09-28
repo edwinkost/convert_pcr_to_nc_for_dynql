@@ -47,7 +47,7 @@ ncdump -h ${NCFILE}
 #~ In loadingInput/WastewaterPathways_1980_2015.nc; all variables are dimensionless ratios (-). The volume flows stored in these files currently are relics of a previous processing step.
 #~ $ cdo showvar WastewaterPathways_1980_2015.nc
  #~ WWt_Tertiary WWt_Secondary WWt_Primary WWcut dom_WWbs dom_WWod man_WWdirect
-NCFILE=Liv_Pop_1980_2019.nc
+NCFILE=WastewaterPathways_1980_2015.nc
 VARNAME="WWt_Tertiary"
 ncatted -O -h -a units,${VARNAME},o,c,"1" ${NCFILE}
 VARNAME="WWt_Secondary"
